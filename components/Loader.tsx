@@ -45,19 +45,21 @@ export function Loader() {
     if (!isLoading) return null;
 
     return (
-        <div className="loader-container fixed inset-0 z-[100] bg-white  dark:bg-gray-950  flex flex-col items-center justify-center">
-            <div className="space-y-4 text-center">
+        <div className="loader-container fixed inset-0 z-[100] bg-white dark:bg-gray-950 flex flex-col items-center justify-center overflow-hidden px-4">
+            <div className="space-y-4 text-center w-full max-w-full">
                 <div className="overflow-hidden">
-                    <h1 className="loader-text text-2xl md:text-5xl font-black text-purple-700 dark:text-purple-500 tracking-tighter opacity-0 translate-y-full uppercase whitespace-nowrap">
-                        SHARMIN AKTER REKA<span className="text-purple-700 dark:text-purple-500">.</span>
+                    <h1 className="loader-text text-xl sm:text-2xl md:text-5xl font-black text-purple-700 dark:text-purple-500 tracking-tighter opacity-0 translate-y-full uppercase truncate px-2">
+                        <span className="hidden sm:inline">SHARMIN AKTER REKA</span>
+                        <span className="sm:hidden">SHARMIN AKTER REKA</span>
+                        <span className="text-purple-700 dark:text-purple-500">.</span>
                     </h1>
                 </div>
                 <div className="overflow-hidden">
-                    <p className="loader-text text-muted-foreground tracking-[0.4em] font-black text-[10px] uppercase opacity-0 translate-y-full text-black dark:text-white ">
+                    <p className="loader-text text-muted-foreground tracking-[0.2em] sm:tracking-[0.4em] font-black text-[9px] sm:text-[10px] uppercase opacity-0 translate-y-full text-black dark:text-white">
                         Initializing Experience
                     </p>
                 </div>
-                <div className="w-64 md:w-full  h-1 bg-black/5 dark:bg-white/5 rounded-full mt-12 relative overflow-hidden">
+                <div className="w-48 sm:w-64 md:w-full max-w-md mx-auto h-1 bg-black/5 dark:bg-white/5 rounded-full mt-8 sm:mt-12 relative overflow-hidden">
                     <div className="loader-progress absolute left-0 top-0 h-full w-0 bg-purple-700 dark:bg-purple-500 rounded-full shadow-lg shadow-purple-600/20" />
                 </div>
             </div>

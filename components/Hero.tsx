@@ -107,7 +107,7 @@ export function Hero() {
                         </div>
 
                         <div className="hero-description h-12 flex items-center justify-center lg:justify-start">
-                            <p className="text-lg md:text-2xl text-purple-600 dark:text-purple-400 font-extrabold uppercase tracking-[0.3em] font-mono">
+                            <p className="text-lg md:text-2xl lg:text-4xl text-purple-600 dark:text-purple-400 font-extrabold uppercase tracking-[0.3em] lg:tracking-[0em] font-mono">
                                 {displayText}<span className="animate-blink border-r-4 border-current ml-1" />
                             </p>
                         </div>
@@ -120,14 +120,14 @@ export function Hero() {
                     <div className="hero-btns flex flex-wrap justify-center lg:justify-start gap-6 pt-6">
                         <a
                             href="#projects"
-                            className="px-10 py-6 rounded-2xl bg-foreground text-background hover:scale-105 active:scale-95 font-black uppercase border bg-purple-600 dark:bg-purple-500 text-white tracking-widest text-[10px] lg:text-[13px] transition-all flex items-center gap-3 group shadow-2xl shadow-purple-500/10"
+                            className="px-6 py-4 rounded-2xl bg-foreground text-background hover:scale-105 active:scale-95 font-bold uppercase border border-black/5  dark:border-white/5 bg-purple-600 dark:bg-purple-500 text-white tracking-widest text-[10px] md:text-[13px] transition-all flex items-center gap-3 group shadow-2xl shadow-purple-500/10"
                         >
                             Explore Works <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
                             href="/Front-End Developer Resume.pdf"
                             download
-                            className="px-10 py-6 rounded-2xl bg-blue-600 dark:bg-blue-400 text-white border border-black/5  dark:border-white/5 hover:border-purple-500/30 hover:scale-105 active:scale-95 font-black uppercase tracking-widest text-[10px] lg:text-[13px]  transition-all flex items-center gap-3 group shadow-xl shadow-purple-500/5"
+                            className="px-6 py-4 rounded-2xl bg-blue-600 dark:bg-blue-400 text-white border border-black/5  dark:border-white/5 hover:border-purple-500/30 hover:scale-105 active:scale-95 font-bold uppercase tracking-widest text-[10px] md:text-[13px]  transition-all flex items-center gap-3 group shadow-xl shadow-purple-500/5"
                         >
                             Resume <ArrowRight size={18} className="rotate-90 group-hover:translate-y-1 transition-transform" />
                         </a>

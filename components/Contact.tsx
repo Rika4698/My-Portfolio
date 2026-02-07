@@ -145,13 +145,13 @@ export function Contact() {
                         <div className="px-3 py-6 md:p-10 rounded-xl md:rounded-[2.5rem] bg-secondary/30 dark:bg-white/5 border border-black/20 dark:border-white/20 backdrop-blur-sm">
                             <h3 className="text-2xl font-black uppercase tracking-tight mb-8">Get in Touch</h3>
                             <div className="space-y-8">
-                                <a href="mailto:rika_cse_1819@istt.edu.bd" className="flex items-center gap-6 group">
+                                <a  className="flex items-center gap-6 group">
                                     <div className="w-14 h-14 rounded-2xl  bg-white dark:bg-white/10 flex items-center justify-center text-purple-600 dark:text-purple-400 shadow-sm group-hover:scale-110 transition-transform duration-300">
                                         <Mail size={24} />
                                     </div>
                                     <div>
                                         <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground mb-1">Email</p>
-                                        <p className="text-lg font-bold text-foreground group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">rika_cse_1819@istt.edu.bd</p>
+                                        <p className="text-lg font-bold text-foreground group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">rekasharmin46@gmail.com</p>
                                     </div>
                                 </a>
                                 <div className="flex items-center gap-6 group">

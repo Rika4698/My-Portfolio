@@ -40,6 +40,7 @@ body {
   color: var(--foreground);
   transition: background-color 0.5s ease, color 0.5s ease;
   overflow-x: hidden;
+  overflow-y: scroll;
   min-height: 100vh;
 }
 

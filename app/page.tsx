@@ -11,11 +11,11 @@ import { Loader } from "@/components/Loader";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background text-foreground selection:bg-purple-500/30">
+    <main className="min-h-screen bg-background text-foreground selection:bg-purple-500/30 overflow-x-hidden">
       <Loader />
       <Navbar />
       <Hero />
-      <div className="relative">
+      <div className="relative overflow-x-hidden">
         <About />
         <Skills />
         <Education />
