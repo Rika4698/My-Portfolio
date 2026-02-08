@@ -160,7 +160,7 @@ export function Contact() {
                                     </div>
                                     <div>
                                         <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground mb-1">Phone</p>
-                                        <p className="text-lg font-bold text-foreground">+880 1798 409 071</p>
+                                        <p className="text-lg font-bold text-foreground">+8801798409071</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-6 group">
