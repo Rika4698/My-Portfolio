@@ -136,7 +136,7 @@ export function Hero() {
                             {[
                                 { icon: Github, href: "https://github.com/Rika4698", label: "GitHub" },
                                 { icon: Linkedin, href: "https://www.linkedin.com/in/sharmin-rika-2b17a42b4/", label: "LinkedIn" },
-                                { icon: Mail, href: "mailto:rika_cse_1819@istt.edu.bd", label: "Email" },
+                                { icon: Mail, href: "mailto:rekasharmin46@gmail.com", label: "Email" },
                             ].map((social, i) => (
                                 <a
                                     key={i}

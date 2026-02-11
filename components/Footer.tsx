@@ -98,7 +98,7 @@ export function Footer() {
                         {[
                             { icon: Github, href: "https://github.com/Rika4698" },
                             { icon: Linkedin, href: "https://www.linkedin.com/in/sharmin-rika-2b17a42b4/" },
-                            { icon: Mail, href: "mailto:rika_cse_1819@istt.edu.bd" }
+                            { icon: Mail, href: "mailto:rekasharmin46@gmail.com" }
                         ].map((social, idx) => (
                             <a
                                 key={idx}

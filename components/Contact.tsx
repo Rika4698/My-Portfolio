@@ -184,7 +184,7 @@ export function Contact() {
                                 <a href="https://github.com/Rika4698" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl bg-white dark:bg-white/10   transition-all duration-300 border-2 hover:text-purple-600  border-black/20 dark:border-white/5 dark:hover:text-purple-400 hover:border-purple-500 dark:hover:border-purple-500">
                                     <Github size={24} />
                                 </a>
-                                <a href="mailto:rika_cse_1819@istt.edu.bd" className="p-4 rounded-xl bg-white dark:bg-white/10  transition-all duration-300 border-2 hover:text-purple-600  border-black/20 dark:border-white/5 dark:hover:text-purple-400 hover:border-purple-500 dark:hover:border-purple-500">
+                                <a href="mailto:rekasharmin46@gmail.com" className="p-4 rounded-xl bg-white dark:bg-white/10  transition-all duration-300 border-2 hover:text-purple-600  border-black/20 dark:border-white/5 dark:hover:text-purple-400 hover:border-purple-500 dark:hover:border-purple-500">
                                     <Mail size={24} />
                                 </a>
                             </div>

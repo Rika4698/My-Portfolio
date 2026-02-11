@@ -173,7 +173,7 @@ export function Navbar() {
                             <a href="https://www.linkedin.com/in/sharmin-rika-2b17a42b4/" target="_blank" rel="noopener noreferrer" className="p-2.5 sm:p-3 rounded-xl bg-purple-600/20 dark:bg-white/5 border border-black/5 dark:border-white/5 hover:text-purple-600 transition-all">
                                 <Linkedin size={18} className="sm:w-5 sm:h-5" />
                             </a>
-                            <a href="mailto:rika_cse_1819@istt.edu.bd" className="p-2.5 sm:p-3 rounded-xl bg-purple-600/20 dark:bg-white/5 border border-black/5 dark:border-white/5 hover:text-purple-600 transition-all">
+                            <a href="mailto:rekasharmin46@gmail.com" className="p-2.5 sm:p-3 rounded-xl bg-purple-600/20 dark:bg-white/5 border border-black/5 dark:border-white/5 hover:text-purple-600 transition-all">
                                 <Mail size={18} className="sm:w-5 sm:h-5" />
                             </a>
                         </div>
