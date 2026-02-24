@@ -125,7 +125,7 @@ export function Hero() {
                             Explore Works <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
-                            href="/Front-End Developer Resume.pdf"
+                            href="/Full Stack Developer Resume.pdf"
                             download
                             className="px-6 py-4 rounded-2xl bg-blue-600 dark:bg-blue-400 text-white border border-black/5  dark:border-white/5 hover:border-purple-500/30 hover:scale-105 active:scale-95 font-bold uppercase tracking-widest text-[10px] md:text-[13px]  transition-all flex items-center gap-3 group shadow-xl shadow-purple-500/5"
                         >

@@ -67,7 +67,7 @@ export function Footer() {
                 {/* Resume Button */}
                 <div className="footer-reveal">
                     <a
-                        href="/Front-End Developer Resume.pdf"
+                        href="/Full Stack Developer Resume.pdf"
                         download
                         className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-foreground text-background font-black uppercase tracking-widest text-xs hover:scale-105 transition-transform shadow-xl border-2 border-purple-600 hover:bg-purple-500"
                     >
