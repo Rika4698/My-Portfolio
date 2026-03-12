@@ -84,7 +84,7 @@ export function About() {
                                 About <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-blue-400">Me.</span>
                             </h2>
                             <p className="about-reveal text-xl text-muted-foreground leading-relaxed font-bold text-left">
-                                 I'm Sharmin Akter Reka, a passionateFull-Stack Developer with a strong foundation in building responsive, scalable, and user-focused web applications. I specialize in React, Next.js, and modern technologies to create clean, high-performance interfaces. I enjoy solving real-world problems through efficient code, thoughtful design, and continuous learning. My goal is to deliver reliable software that provides both great user experience and business value.
+                                 I'm Sharmin Akter Reka, a passionate Web Developer with a strong foundation in building responsive, scalable, and user-focused web applications. I specialize in React, Next.js, and modern technologies to create clean, high-performance interfaces. I enjoy solving real-world problems through efficient code, thoughtful design, and continuous learning. My goal is to deliver reliable software that provides both great user experience and business value.
                             </p>
                         </div>
 

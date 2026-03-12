@@ -161,7 +161,7 @@ export function Skills() {
                         <Sparkles size={14} /> Technical Arsenal
                     </div>
                     <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase bg-clip-text text-transparent bg-gradient-to-b from-black to-black/20  dark:from-white dark:to-white/20">
-                        My <span className="text-purple-700 dark:text-purple-600">Expertise.</span>
+                        My <span className="text-purple-700 dark:text-purple-600">Skills.</span>
                     </h2>
                     <p className="text-gray-500 dark:text-gray-400 font-medium text-lg max-w-2xl mx-auto leading-relaxed">
                         A curated collection of the technologies and tools I use to create exceptional digital experiences.
